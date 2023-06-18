@@ -97,18 +97,19 @@ section div p {
     margin-bottom: 50px;
 }
 
-section div button {
+.textoprincipal a {
     color: #ffffff;
     background: #f9004d;
-    height: 50px;
-    width: 140px;
+    padding: 10px 20px;
     font-size: 18px;
     border: none;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
+    transition: 0.5seg;
+    text-decoration: none;
 }
 
-section div button:hover {
+.textoprincipal a:hover {
     background-color: #000000;
     border: 2px solid #f9004d;
     transition: 0.5seg;
